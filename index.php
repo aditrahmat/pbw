@@ -3,49 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Wedding: Mas Guntur dan Mbak Alia</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-        }
-        img {
-            max-width: 300px;
-            height: auto;
-            margin-top: 20px;
-        }
-        h1 {
-            font-size: 2.5em;
-            color: #333;
-            margin-top: 20px;
-        }
-        .links {
-            margin-top: 30px;
-        }
-        a {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        a:hover {
-            background-color: #2980b9;
-        }
-    </style>
+    <title>Landing Page - Buku Tamu</title>
 </head>
 <body>
-<h1>The Wedding</h1>
-<h2>Mas Guntur dan Mbak Alia</h2>
-<img src="/thewedding/images/image.webp" alt="Mempelai">
-<h2>Akan menikah</h2>
+    <h1>Selamat Datang di Buku Tamu</h1>
+    <p>Selamat datang di situs buku tamu kami. Silakan mengisi buku tamu atau melihat daftar tamu yang telah mengisi.</p>
 
-<div class="links">
-    <a href="/thewedding/fillbukutamu.php">Isi Buku Tamu</a>
-    <a href="/thewedding/listtamu.php">Lihat Buku Tamu</a>
-</div>
+    <ul>
+        <li><a href="input.php">Isi Buku Tamu</a></li>
+        <li><a href="table.php">Lihat Daftar Tamu</a></li>
+    </ul>
 </body>
 </html>
