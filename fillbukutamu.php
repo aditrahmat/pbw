@@ -75,7 +75,7 @@
 </head>
 <p>
 <h2>Isi Buku Tamu</h2>
-<form action="proses.php" method="POST">
+<form action="process.php" method="POST">
     <label for="nama">Nama:</label>
     <input type="text" id="nama" name="nama" value="<?php echo isset($_COOKIE['nama']) ? $_COOKIE['nama'] : ''; ?>" required>
 
