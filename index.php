@@ -45,7 +45,7 @@
 
 <div class="links">
     <a href="/thewedding/fillbukutamu.php">Isi Buku Tamu</a>
-    <a href="/thewedding/lihatbukutamu.php">Lihat Buku Tamu</a>
+    <a href="/thewedding/listtamu.php">Lihat Buku Tamu</a>
 </div>
 </body>
 </html>
